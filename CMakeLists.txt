@@ -8,8 +8,6 @@ find_package(wxWidgets
     REQUIRED
 )
 
-
-
 set(wxWidgets_CONFIGURATION gtk2-unicode-3.1)
 
 include_directories(
