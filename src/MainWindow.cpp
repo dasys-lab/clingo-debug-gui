@@ -7,7 +7,7 @@
 
 bool MainWindow :: OnInit() {
 
-    AFrame* aFrame = new AFrame("clingo-debug-gui", wxPoint(50, 50), wxSize(100, 100));
+    AFrame* aFrame = new AFrame("clingo-debug-gui", wxPoint(10, 10), wxSize(1000, 1000));
     aFrame->Show(true);
 
     return true;
