@@ -20,6 +20,9 @@
 *.out
 *.app
 
+# manual build files
+build/
+
 # clion stuff
 .idea/
 cmake-build-debug/
