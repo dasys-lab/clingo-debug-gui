@@ -1,6 +1,4 @@
 
-
-
 #include <wx/wx.h>
 
 class AFrame : public wxFrame {
