@@ -29,22 +29,29 @@ void GraphPane::paintNow()
 
 void GraphPane::render(wxDC&  dc)
 {
-    // draw some text
-    dc.DrawText(wxT("Testing"), 40, 60);
 
     // draw a circle
-    dc.SetBrush(*wxGREEN_BRUSH); // green filling
-    dc.SetPen( wxPen( wxColor(255,0,0), 5 ) ); // 5-pixels-thick red outline
-    dc.DrawCircle( wxPoint(200,100), 25 /* radius */ );
+//    dc.SetBrush(*wxGREEN_BRUSH); // green filling
+//    dc.SetPen( wxPen( wxColor(255,0,0), 5 ) ); // 5-pixels-thick red outline
+//    dc.DrawCircle( wxPoint(200,100), 25 /* radius */ );
+
+    // draw a line
+    dc.SetPen( wxPen( wxColor(0,0,0), 3 ) ); // black line, 3 pixels thick
+    dc.DrawLine( 125, 125, 315, 125 ); // draw line across the rectangle
 
     // draw a rectangle
     dc.SetBrush(*wxBLUE_BRUSH); // blue filling
     dc.SetPen( wxPen( wxColor(255,175,175), 10 ) ); // 10-pixels-thick pink outline
-    dc.DrawRectangle( 300, 100, 400, 200 );
+    dc.DrawRectangle( 300, 100, 100, 50 );
 
-    // draw a line
-    dc.SetPen( wxPen( wxColor(0,0,0), 3 ) ); // black line, 3 pixels thick
-    dc.DrawLine( 300, 100, 700, 300 ); // draw line across the rectangle
+    // draw a second rectangle
+    dc.SetBrush(*wxBLUE_BRUSH); // blue filling
+    dc.SetPen( wxPen( wxColor(255,175,175), 10 ) ); // 10-pixels-thick pink outline
+    dc.DrawRectangle( 100, 100, 100, 50 );
+
+    // draw some text
+    dc.DrawText(wxT("Testing 1"), 120, 115);
+    dc.DrawText(wxT("Testing 2"), 320, 115);
 
     // Look at the wxDC docs to learn how to draw other stuff
 }
