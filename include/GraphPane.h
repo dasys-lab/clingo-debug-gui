@@ -7,6 +7,7 @@ public:
     GraphPane(wxPanel* parent);
     void paintEvent(wxPaintEvent & evt);
     void paintNow();
+    void resizeEvent(wxSizeEvent &evt);
     void render(wxDC& dc);
 
     DECLARE_EVENT_TABLE()

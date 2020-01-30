@@ -2,6 +2,7 @@
 
 BEGIN_EVENT_TABLE(GraphPane, wxPanel)
     EVT_PAINT(GraphPane::paintEvent)
+    EVT_SIZE(GraphPane::resizeEvent)
 END_EVENT_TABLE()
 
 GraphPane::GraphPane(wxPanel* parent) :wxPanel(parent)
@@ -14,10 +15,16 @@ void GraphPane::paintEvent(wxPaintEvent & evt)
     render(dc);
 }
 
+void GraphPane::resizeEvent(wxSizeEvent &evt){
+    paintNow();
+    this->GetParent()->Update();
+}
+
 void GraphPane::paintNow()
 {
     wxClientDC dc(this);
     render(dc);
+    this->GetParent()->Update();
 }
 
 void GraphPane::render(wxDC&  dc)
