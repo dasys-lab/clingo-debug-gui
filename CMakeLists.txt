@@ -3,22 +3,11 @@ project(ClingoDebugGui)
 
 set(CMAKE_BUILD_TYPE Debug)
 
-find_package(OpenGL REQUIRED)
-find_package(GLUT REQUIRED)
-
-find_package(wxWidgets
-    COMPONENTS core base gl
-    REQUIRED
-)
-
-include(${wxWidgets_USE_FILE})
-
-
 include_directories(
     include
-    ${OPENGL_INCLUDE_DIRS}
-    ${GLUT_INCLUDE_DIRS}
 )
+
+add_subdirectory(libs/wxWidgets EXCLUDE_FROM_ALL) # EXCLUDE_FROM_ALL does not include targets nothing depends on into the 'all' target
 
 ### Main File ###
 add_executable(${CMAKE_PROJECT_NAME}
@@ -27,8 +16,7 @@ add_executable(${CMAKE_PROJECT_NAME}
     src/AFrame.cpp
     src/GraphPane.cpp
 )
-target_link_libraries(${CMAKE_PROJECT_NAME}
-    ${wxWidgets_LIBRARIES}
-    ${OPENGL_LIBRARIES}
-    ${GLUT_LIBRARY}
+target_link_libraries(${CMAKE_PROJECT_NAME} # Components that are listed here will be built.
+    core
+    base
 )
