@@ -35,6 +35,8 @@ void GraphPane::render(wxDC&  dc)
 //    dc.SetPen( wxPen( wxColor(255,0,0), 5 ) ); // 5-pixels-thick red outline
 //    dc.DrawCircle( wxPoint(200,100), 25 /* radius */ );
 
+    dc.SetBackground(*wxGREY_BRUSH);
+
     // draw a line
     dc.SetPen( wxPen( wxColor(0,0,0), 3 ) ); // black line, 3 pixels thick
     dc.DrawLine( 125, 125, 315, 125 ); // draw line across the rectangle

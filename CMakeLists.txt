@@ -9,6 +9,8 @@ include_directories(
     include
 )
 
+set(CMAKE_GENERATOR Ninja)
+
 add_subdirectory(libs/wxWidgets EXCLUDE_FROM_ALL) # EXCLUDE_FROM_ALL does not include targets nothing depends on into the 'all' target
 
 ### Main File ###
