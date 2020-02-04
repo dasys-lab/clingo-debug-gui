@@ -11,29 +11,44 @@ Before you start you should install the folloging tools on your system:
 Instructions to install these tools should be easy to find.
 
 ## Installing this software
-wxWidgets is included in this repository as a git submodule, so it does not have to be installed manually! We provide commands to clone via https and via ssh, you only need to execute one!
+wxWidgets is included in this repository as a git submodule, so it does not have to be installed manually! We provide commands to clone via https and via ssh, you only need to execute one!  
+If you want to clone over https:
 ```bash
-git clone --recurse-submodules http://www.github.com/dasys-lab/clingo-debug-gui.git # Clone via https
-git clone --recurse-submodules git@github.com:dasys-lab/clingo-debug-gui.git # Clone via ssh
+git clone --recurse-submodules http://www.github.com/dasys-lab/clingo-debug-gui.git
 ```
+If you want to clone over ssh:
+```bash
+git clone --recurse-submodules git@github.com:dasys-lab/clingo-debug-gui.git
+```
+### Building:
 If you like you can adapt the cmake file so building uses more cores.
 To build the project input the following commands one after the other:
+If you want to use ninja as build system
 ```bash
 # linux and mac:
 mkdir build && cd build
-cmake -G Ninja .. # Building with ninja
-cmake .. # Building with default build system
+cmake -G Ninja ..
 cmake --build
 cd ..
 ```
+If you want to use the default build system:
+````bash
+# linux and mac:
+mkdir build && cd build
+cmake ..
+cmake --build
+cd ..
+````
 If no errors occure this should be it.
 
 ## Executing ClingoDebugGui
+Execute using Linux or MacOS
 ```bash
-./build/ClingDebugGui # Linux and Mac
+./build/ClingDebugGui
 ```
+Execute using Windows
 ```bash
-build\ClingoDebugGui.exe # Windows
+build\ClingoDebugGui.exe
 ```
 Please ignore Gtk-Warnings, as they are normal and should mostly be the absence of themes.
 
