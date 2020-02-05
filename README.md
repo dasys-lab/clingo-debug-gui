@@ -4,6 +4,7 @@
 Before you start you should install the folloging tools on your system:
 * git
 * cmake
+* conan
 * a C++ compiler (gcc, mingw, visual-C++, xcode, ...)
 * ninja 
 * If building on linux, you should install gtk libraries.  
