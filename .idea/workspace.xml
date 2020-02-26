@@ -12,13 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfdf255a-62c4-4ca6-8820-f50c3fd0cb3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/include/clingo-debug-gui/MainFrame.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/clingo-debug-gui/MainWindow.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainFrame.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainWindow.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/appmain.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conanfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/conanfile.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +106,7 @@
       <workItem from="1582707820222" duration="224000" />
       <workItem from="1582708509617" duration="6442000" />
       <workItem from="1582719604520" duration="1006000" />
-      <workItem from="1582721644689" duration="1760000" />
+      <workItem from="1582721644689" duration="2367000" />
     </task>
     <task id="LOCAL-00001" summary="Major project restructuring after unficable bug.">
       <created>1582714430973</created>
