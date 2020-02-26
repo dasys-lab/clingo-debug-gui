@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-G Ninja" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bfdf255a-62c4-4ca6-8820-f50c3fd0cb3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conanfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/clingo-debug-gui/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conanfile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc_01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_build.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/AFrame.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Edge.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Graph.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/GraphPane.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/MainWindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/Node.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AFrame.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GraphPane.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainWindow.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ConanProjectSettings">
+    <option name="profileMapping">
+      <map>
+        <entry>
+          <key>
+            <CMakeProfile>
+              <option name="name" value="Debug" />
+              <option name="targetDir" value="$PROJECT_DIR$/cmake-build-debug" />
+            </CMakeProfile>
+          </key>
+          <value>
+            <ConanProfile>
+              <option name="name" value="default" />
+            </ConanProfile>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1XwCHfG2X22YZ5FjxLjxeTZJXCo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/.idea/misc.xml&#10;/home/stefan/stummelws/src/clingo-debug-gui/.idea/workspace.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfdf255a-62c4-4ca6-8820-f50c3fd0cb3a" name="Default Changelist" comment="" />
+      <created>1581947683524</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581947683524</updated>
+      <workItem from="1581947685792" duration="131000" />
+      <workItem from="1582119018573" duration="2651000" />
+      <workItem from="1582122320186" duration="875000" />
+      <workItem from="1582621156868" duration="3348000" />
+      <workItem from="1582707820222" duration="224000" />
+      <workItem from="1582708509617" duration="5386000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582708754891">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="418" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.36.1920.1044@0.36.1920.1044" timestamp="1582708754891" />
+    <state x="557" y="143" key="CommitChangelistDialog2" timestamp="1582714365658">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="557" y="143" key="CommitChangelistDialog2/0.36.1920.1044@0.36.1920.1044" timestamp="1582714365658" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1582631346940">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.36.1920.1044@0.36.1920.1044" timestamp="1582631346940" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1582631346940">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.36.1920.1044@0.36.1920.1044" timestamp="1582631346940" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1582631346940">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.36.1920.1044@0.36.1920.1044" timestamp="1582631346940" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1582631346940">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.36.1920.1044@0.36.1920.1044" timestamp="1582631346940" />
+    <state width="1874" height="339" key="GridCell.Tab.1.bottom" timestamp="1582124368743">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="339" key="GridCell.Tab.1.bottom/0.36.1920.1044@0.36.1920.1044" timestamp="1582124368743" />
+    <state width="1874" height="339" key="GridCell.Tab.1.center" timestamp="1582124368743">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="339" key="GridCell.Tab.1.center/0.36.1920.1044@0.36.1920.1044" timestamp="1582124368743" />
+    <state width="1874" height="339" key="GridCell.Tab.1.left" timestamp="1582124368743">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="339" key="GridCell.Tab.1.left/0.36.1920.1044@0.36.1920.1044" timestamp="1582124368743" />
+    <state width="1874" height="339" key="GridCell.Tab.1.right" timestamp="1582124368743">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state width="1874" height="339" key="GridCell.Tab.1.right/0.36.1920.1044@0.36.1920.1044" timestamp="1582124368743" />
+    <state x="456" y="193" key="SettingsEditor" timestamp="1582708909787">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="456" y="193" key="SettingsEditor/0.36.1920.1044@0.36.1920.1044" timestamp="1582708909787" />
+    <state x="639" y="388" key="com.intellij.ide.util.TipDialog" timestamp="1582708522634">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="639" y="388" key="com.intellij.ide.util.TipDialog/0.36.1920.1044@0.36.1920.1044" timestamp="1582708522634" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/GraphPane.cpp</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/MainFrame.cpp</url>
+          <line>34</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/MainFrame.cpp</url>
+          <line>40</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/MainFrame.cpp</url>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
