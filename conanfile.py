@@ -10,7 +10,7 @@ class ClingoDebugGui(ConanFile):
     options = {}
 
     def requirements(self):
-        self.requires("wxwidgets/3.1.2@bincrafters/stable", private=True, override=False)
+        self.requires("wxwidgets/3.1.1@bincrafters/stable", private=True, override=False)
         self.requires("jsoncpp/1.9.0@theirix/stable", private=True, override=False)
 
     def build(self):

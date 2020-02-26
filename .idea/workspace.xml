@@ -1,39 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="ClingoDebugGui" targetName="ClingoDebugGui" />
+    </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-G Ninja" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-G Ninja" GENERATION_DIR="build" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfdf255a-62c4-4ca6-8820-f50c3fd0cb3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conanfile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/clingo-debug-gui/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/clingo-debug-gui/MainFrame.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/clingo-debug-gui/MainWindow.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainFrame.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainWindow.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/appmain.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conanfile.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc_01.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_build.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/AFrame.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Edge.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Graph.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/GraphPane.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/MainWindow.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/Node.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AFrame.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GraphPane.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainWindow.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conanfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/conanfile.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +30,8 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ConanProjectSettings">
+    <option name="conanPath" value="" />
+    <option name="installArgs" value="" />
     <option name="profileMapping">
       <map>
         <entry>
@@ -62,6 +50,7 @@
       </map>
     </option>
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -71,7 +60,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="b35e22907eef8a6ceaaaa6f7e9926906ea04bb29" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1XwCHfG2X22YZ5FjxLjxeTZJXCo" />
   <component name="ProjectViewState">
@@ -92,7 +87,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ClingoDebugGui" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="ClingoDebugGui" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ClingoDebugGui" RUN_TARGET_NAME="ClingoDebugGui">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -109,62 +111,93 @@
       <workItem from="1582122320186" duration="875000" />
       <workItem from="1582621156868" duration="3348000" />
       <workItem from="1582707820222" duration="224000" />
-      <workItem from="1582708509617" duration="5386000" />
+      <workItem from="1582708509617" duration="6442000" />
+      <workItem from="1582719604520" duration="1006000" />
+      <workItem from="1582721644689" duration="1760000" />
     </task>
+    <task id="LOCAL-00001" summary="Major project restructuring after unficable bug.">
+      <created>1582714430973</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582714430973</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="Major project restructuring after unficable bug." />
+    <option name="LAST_COMMIT_MESSAGE" value="Major project restructuring after unficable bug." />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="418" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582708754891">
+    <state x="555" y="219" key="#Inspections" timestamp="1582721687174">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state x="418" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.36.1920.1044@0.36.1920.1044" timestamp="1582708754891" />
-    <state x="557" y="143" key="CommitChangelistDialog2" timestamp="1582714365658">
+    <state x="555" y="219" key="#Inspections/0.36.1920.1044@0.36.1920.1044" timestamp="1582721687174" />
+    <state x="418" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582717151360">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state x="557" y="143" key="CommitChangelistDialog2/0.36.1920.1044@0.36.1920.1044" timestamp="1582714365658" />
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1582631346940">
+    <state x="418" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.36.1920.1044@0.36.1920.1044" timestamp="1582717151360" />
+    <state x="557" y="143" key="CommitChangelistDialog2" timestamp="1582714430859">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.36.1920.1044@0.36.1920.1044" timestamp="1582631346940" />
-    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1582631346940">
+    <state x="557" y="143" key="CommitChangelistDialog2/0.36.1920.1044@0.36.1920.1044" timestamp="1582714430859" />
+    <state x="742" y="316" key="FileChooserDialogImpl" timestamp="1582719855985">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.center/0.36.1920.1044@0.36.1920.1044" timestamp="1582631346940" />
-    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1582631346940">
+    <state x="742" y="316" key="FileChooserDialogImpl/0.36.1920.1044@0.36.1920.1044" timestamp="1582719855985" />
+    <state width="1874" height="339" key="GridCell.Tab.0.bottom" timestamp="1582727220448">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.left/0.36.1920.1044@0.36.1920.1044" timestamp="1582631346940" />
-    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1582631346940">
+    <state width="1874" height="339" key="GridCell.Tab.0.bottom/0.36.1920.1044@0.36.1920.1044" timestamp="1582727220448" />
+    <state width="1874" height="339" key="GridCell.Tab.0.center" timestamp="1582727220447">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.right/0.36.1920.1044@0.36.1920.1044" timestamp="1582631346940" />
-    <state width="1874" height="339" key="GridCell.Tab.1.bottom" timestamp="1582124368743">
+    <state width="1874" height="339" key="GridCell.Tab.0.center/0.36.1920.1044@0.36.1920.1044" timestamp="1582727220447" />
+    <state width="1874" height="339" key="GridCell.Tab.0.left" timestamp="1582727220446">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.1.bottom/0.36.1920.1044@0.36.1920.1044" timestamp="1582124368743" />
-    <state width="1874" height="339" key="GridCell.Tab.1.center" timestamp="1582124368743">
+    <state width="1874" height="339" key="GridCell.Tab.0.left/0.36.1920.1044@0.36.1920.1044" timestamp="1582727220446" />
+    <state width="1874" height="339" key="GridCell.Tab.0.right" timestamp="1582727220448">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.1.center/0.36.1920.1044@0.36.1920.1044" timestamp="1582124368743" />
-    <state width="1874" height="339" key="GridCell.Tab.1.left" timestamp="1582124368743">
+    <state width="1874" height="339" key="GridCell.Tab.0.right/0.36.1920.1044@0.36.1920.1044" timestamp="1582727220448" />
+    <state width="1874" height="339" key="GridCell.Tab.1.bottom" timestamp="1582727220450">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.1.left/0.36.1920.1044@0.36.1920.1044" timestamp="1582124368743" />
-    <state width="1874" height="339" key="GridCell.Tab.1.right" timestamp="1582124368743">
+    <state width="1874" height="339" key="GridCell.Tab.1.bottom/0.36.1920.1044@0.36.1920.1044" timestamp="1582727220450" />
+    <state width="1874" height="339" key="GridCell.Tab.1.center" timestamp="1582727220449">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.1.right/0.36.1920.1044@0.36.1920.1044" timestamp="1582124368743" />
-    <state x="456" y="193" key="SettingsEditor" timestamp="1582708909787">
+    <state width="1874" height="339" key="GridCell.Tab.1.center/0.36.1920.1044@0.36.1920.1044" timestamp="1582727220449" />
+    <state width="1874" height="339" key="GridCell.Tab.1.left" timestamp="1582727220449">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state x="456" y="193" key="SettingsEditor/0.36.1920.1044@0.36.1920.1044" timestamp="1582708909787" />
-    <state x="639" y="388" key="com.intellij.ide.util.TipDialog" timestamp="1582708522634">
+    <state width="1874" height="339" key="GridCell.Tab.1.left/0.36.1920.1044@0.36.1920.1044" timestamp="1582727220449" />
+    <state width="1874" height="339" key="GridCell.Tab.1.right" timestamp="1582727220450">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state x="639" y="388" key="com.intellij.ide.util.TipDialog/0.36.1920.1044@0.36.1920.1044" timestamp="1582708522634" />
+    <state width="1874" height="339" key="GridCell.Tab.1.right/0.36.1920.1044@0.36.1920.1044" timestamp="1582727220450" />
+    <state x="456" y="193" key="SettingsEditor" timestamp="1582723344962">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="456" y="193" key="SettingsEditor/0.36.1920.1044@0.36.1920.1044" timestamp="1582723344962" />
+    <state x="555" y="294" key="Vcs.Push.Dialog.v2" timestamp="1582716558859">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="555" y="294" key="Vcs.Push.Dialog.v2/0.36.1920.1044@0.36.1920.1044" timestamp="1582716558859" />
+    <state x="612" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1582721644230">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="612" y="382" key="com.intellij.ide.util.TipDialog/0.36.1920.1044@0.36.1920.1044" timestamp="1582721644230" />
+    <state x="752" y="478" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582715184233">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="752" y="478" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.36.1920.1044@0.36.1920.1044" timestamp="1582715184233" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -173,16 +206,6 @@
           <url>file://$PROJECT_DIR$/src/GraphPane.cpp</url>
           <line>32</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/MainFrame.cpp</url>
-          <line>34</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/MainFrame.cpp</url>
-          <line>40</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/MainFrame.cpp</url>

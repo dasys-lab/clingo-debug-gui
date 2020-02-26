@@ -27,11 +27,24 @@ project(ClingoDebugGui                                              # This direc
     DESCRIPTION "A ui to debug asp scripts using clingo."           # only included for completenes sake.
                                                                     # Can be removed safely if unwanted!
     LANGUAGES CXX                                                   # This is for information
-    HOMEPAGE_URL "https://github.com/dasys-lab/clingo-debug-gui"    # only included for completenes sake.
-                                                                    # Can be removed safely if unwanted!
 )
 
 set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})   # This directive adds the cmake directory of
                                                                             # this project to the cmake search path.
 
-add_executable()
+## Conan setup ##
+include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)
+conan_basic_setup(TARGETS)
+
+
+add_executable(${CMAKE_PROJECT_NAME}
+    src/appmain.cpp
+    src/MainWindow.cpp
+    src/MainFrame.cpp
+)
+target_include_directories(${CMAKE_PROJECT_NAME}
+    PRIVATE include
+)
+target_link_libraries(${CMAKE_PROJECT_NAME}
+    CONAN_PKG::wxwidgets
+)
