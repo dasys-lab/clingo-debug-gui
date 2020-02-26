@@ -12,18 +12,17 @@ Before you start you should install the folloging tools on your system:
 Instructions to install these tools should be easy to find.
 
 ## Installing this software
-wxWidgets is included in this repository as a git submodule, so it does not have to be installed manually! We provide commands to clone via https and via ssh, you only need to execute one!  
-If you want to clone over https:
+Clone the repository using ssh
 ```bash
-git clone --recurse-submodules http://www.github.com/dasys-lab/clingo-debug-gui.git
+git clone git@github.com:dasys-lab/clingo-debug-gui.git
 ```
-If you want to clone over ssh:
+or https
 ```bash
-git clone --recurse-submodules git@github.com:dasys-lab/clingo-debug-gui.git
+git clone https://github.com/dasys-lab/clingo-debug-gui.git
 ```
 ### Building:
-If you like you can adapt the cmake file so building uses more cores.
-To build the project input the following commands one after the other:
+If you use jetbrains Clion you can open the project and everything should simply work.  
+To build the project manually input the following commands one after the other:
 If you want to use ninja as build system
 ```bash
 # linux and mac:
@@ -54,6 +53,7 @@ build\ClingoDebugGui.exe
 Please ignore Gtk-Warnings, as they are normal and should mostly be the absence of themes.
 
 ## Tweaks for Clion
+This should not be neccesary since the settings are in the repository, but if it does not work you can set it manually.  
 You can set Clion to generate ninja files if the version of Clion is newer that 2019.3. To do this you have to go to the clion settings via _"File"_ -> _"Settings"_ and navigate to _"Build, Execution, Deployment"_ -> _"CMake"_ and find the text input with the Label: _"CMake Options"_. In there you have to add the following flag:
 ```bash
 -G Ninja
