@@ -49,22 +49,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfdf255a-62c4-4ca6-8820-f50c3fd0cb3a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deps/wxWidgets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/clingo-debug-gui/Edge.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/clingo-debug-gui/Graph.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/clingo-debug-gui/GraphPane.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/clingo-debug-gui/Node.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/include/config.h.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GraphPane.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/minimal.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sample.xpm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/singleFile.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conanfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/conanfile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainFrame.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainFrame.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Doxyfile.in" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Doxyfile.in" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainWindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainWindow.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -393,7 +380,7 @@
       <workItem from="1583932376397" duration="103000" />
       <workItem from="1583932768512" duration="5891000" />
       <workItem from="1584404273692" duration="38000" />
-      <workItem from="1584532757975" duration="1728000" />
+      <workItem from="1584532757975" duration="2827000" />
     </task>
     <task id="LOCAL-00001" summary="Major project restructuring after unficable bug.">
       <created>1582714430973</created>
@@ -434,22 +421,22 @@
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
     <state x="742" y="316" key="FileChooserDialogImpl/0.36.1920.1044@0.36.1920.1044" timestamp="1584533339759" />
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1584536526263">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1584537599520">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.36.1920.1044@0.36.1920.1044" timestamp="1584536526263" />
-    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1584536526262">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.36.1920.1044@0.36.1920.1044" timestamp="1584537599520" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1584537599519">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.center/0.36.1920.1044@0.36.1920.1044" timestamp="1584536526262" />
-    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1584536526262">
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.36.1920.1044@0.36.1920.1044" timestamp="1584537599519" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1584537599519">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.left/0.36.1920.1044@0.36.1920.1044" timestamp="1584536526262" />
-    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1584536526263">
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.36.1920.1044@0.36.1920.1044" timestamp="1584537599519" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1584537599520">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.right/0.36.1920.1044@0.36.1920.1044" timestamp="1584536526263" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.36.1920.1044@0.36.1920.1044" timestamp="1584537599520" />
     <state width="1874" height="339" key="GridCell.Tab.1.bottom" timestamp="1582835638909">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>

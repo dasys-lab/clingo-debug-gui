@@ -25,6 +25,7 @@ build/
 
 # clion stuff
 .idea/
+!.idea/workspace.xml
 cmake-build-debug/
 build/
 *.bak

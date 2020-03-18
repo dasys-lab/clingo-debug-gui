@@ -2,6 +2,11 @@
 #include "clingo-debug-gui/MainWindow.h"
 #include "config.h"
 
+/** OnInit will be called if the window is opened.
+ * It initializes the base frame of the window.
+ *
+ * @return
+ */
 bool MainWindow :: OnInit() {
     std::cout << "Commit hash: " << GIT_HASH;
     std::cout.flush();
