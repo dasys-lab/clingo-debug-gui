@@ -5,12 +5,12 @@ class ClingoDebugGui(ConanFile):
     name = "ClingoDebugGui"
     version = "0.1"
     description = """A ui to debug asp scripts using clingo."""
-    generators = "cmake", "gcc"
+    generators = "cmake"
     build_policy = "missing"
     options = {}
 
     def requirements(self):
-        self.requires("wxwidgets/3.1.3@bincrafters/stable", private=True, override=False)
+        # self.requires("wxwidgets/3.1.3@bincrafters/stable", private=True, override=False)
         self.requires("jsoncpp/1.9.0@theirix/stable", private=True, override=False)
 
     def build(self):

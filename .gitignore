@@ -26,5 +26,7 @@ build/
 # clion stuff
 .idea/
 cmake-build-debug/
+build/
 *.bak
-doc/latex/build
+doc/latex/
+doc/html/

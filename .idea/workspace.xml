@@ -2,17 +2,70 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="ClingoDebugGui" targetName="gl" />
+      <config projectName="ClingoDebugGui" targetName="xrc" />
+      <config projectName="ClingoDebugGui" targetName="base" />
+      <config projectName="ClingoDebugGui" targetName="ribbon_pch" />
+      <config projectName="ClingoDebugGui" targetName="wxrc" />
+      <config projectName="ClingoDebugGui" targetName="net_pch" />
+      <config projectName="ClingoDebugGui" targetName="stc" />
+      <config projectName="ClingoDebugGui" targetName="doc" />
+      <config projectName="ClingoDebugGui" targetName="wxscintilla" />
+      <config projectName="ClingoDebugGui" targetName="richtext_pch" />
+      <config projectName="ClingoDebugGui" targetName="html_pch" />
+      <config projectName="ClingoDebugGui" targetName="qa_pch" />
+      <config projectName="ClingoDebugGui" targetName="webview" />
+      <config projectName="ClingoDebugGui" targetName="wxscintilla_pch" />
+      <config projectName="ClingoDebugGui" targetName="adv" />
+      <config projectName="ClingoDebugGui" targetName="stc_pch" />
+      <config projectName="ClingoDebugGui" targetName="propgrid" />
+      <config projectName="ClingoDebugGui" targetName="xml_pch" />
+      <config projectName="ClingoDebugGui" targetName="aui" />
+      <config projectName="ClingoDebugGui" targetName="wxregex" />
+      <config projectName="ClingoDebugGui" targetName="core_pch" />
+      <config projectName="ClingoDebugGui" targetName="xml" />
+      <config projectName="ClingoDebugGui" targetName="richtext" />
+      <config projectName="ClingoDebugGui" targetName="aui_pch" />
+      <config projectName="ClingoDebugGui" targetName="gl_pch" />
       <config projectName="ClingoDebugGui" targetName="ClingoDebugGui" />
+      <config projectName="ClingoDebugGui" targetName="html" />
+      <config projectName="ClingoDebugGui" targetName="qa" />
+      <config projectName="ClingoDebugGui" targetName="net" />
+      <config projectName="ClingoDebugGui" targetName="core" />
+      <config projectName="ClingoDebugGui" targetName="all_pch" />
+      <config projectName="ClingoDebugGui" targetName="base_pch" />
+      <config projectName="ClingoDebugGui" targetName="uninstall" />
+      <config projectName="ClingoDebugGui" targetName="propgrid_pch" />
+      <config projectName="ClingoDebugGui" targetName="clean_cotire" />
+      <config projectName="ClingoDebugGui" targetName="xrc_pch" />
+      <config projectName="ClingoDebugGui" targetName="webview_pch" />
+      <config projectName="ClingoDebugGui" targetName="ribbon" />
     </generated>
   </component>
-  <component name="CMakeSettings" AUTO_RELOAD="true">
+  <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_OPTIONS="-G Ninja" GENERATION_DIR="build" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" TOOLCHAIN_NAME="Default" GENERATION_OPTIONS="-G Ninja" GENERATION_DIR="build" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfdf255a-62c4-4ca6-8820-f50c3fd0cb3a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deps/wxWidgets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/clingo-debug-gui/Edge.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/clingo-debug-gui/Graph.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/clingo-debug-gui/GraphPane.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/clingo-debug-gui/Node.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/include/config.h.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GraphPane.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/minimal.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample.xpm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/singleFile.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conanfile.py" beforeDir="false" afterPath="$PROJECT_DIR$/conanfile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainFrame.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainFrame.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainWindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainWindow.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +115,7 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1XwCHfG2X22YZ5FjxLjxeTZJXCo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -80,14 +134,239 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="CMake Application.ClingoDebugGui">
     <configuration name="ClingoDebugGui" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="ClingoDebugGui" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ClingoDebugGui" RUN_TARGET_NAME="ClingoDebugGui">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="adv" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="adv" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="all_pch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="all_pch" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aui" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="aui" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aui_pch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="aui_pch" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="base" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="base" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="base_pch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="base_pch" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="clean_cotire" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="clean_cotire" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="core" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="core" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="core_pch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="core_pch" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="doc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="doc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gl" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="gl" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gl_pch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="gl_pch" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="html" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="html" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="html_pch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="html_pch" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="net" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="net" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="net_pch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="net_pch" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="propgrid" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="propgrid" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="propgrid_pch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="propgrid_pch" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="qa" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="qa" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="qa_pch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="qa_pch" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ribbon" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="ribbon" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ribbon_pch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="ribbon_pch" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="richtext" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="richtext" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="richtext_pch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="richtext_pch" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="stc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stc_pch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="stc_pch" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uninstall" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="uninstall" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="webview" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="webview" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="webview_pch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="webview_pch" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wxrc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="wxrc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ClingoDebugGui" RUN_TARGET_NAME="wxrc">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wxregex" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="wxregex" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wxscintilla" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="wxscintilla" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wxscintilla_pch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="wxscintilla_pch" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="xml" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="xml" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="xml_pch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="xml_pch" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="xrc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="xrc" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="xrc_pch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ClingoDebugGui" TARGET_NAME="xrc_pch" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.ClingoDebugGui" />
+      <item itemvalue="CMake Application.doc" />
+      <item itemvalue="CMake Application.adv" />
+      <item itemvalue="CMake Application.all_pch" />
+      <item itemvalue="CMake Application.aui" />
+      <item itemvalue="CMake Application.aui_pch" />
+      <item itemvalue="CMake Application.base" />
+      <item itemvalue="CMake Application.base_pch" />
+      <item itemvalue="CMake Application.clean_cotire" />
+      <item itemvalue="CMake Application.core" />
+      <item itemvalue="CMake Application.core_pch" />
+      <item itemvalue="CMake Application.gl" />
+      <item itemvalue="CMake Application.gl_pch" />
+      <item itemvalue="CMake Application.html" />
+      <item itemvalue="CMake Application.html_pch" />
+      <item itemvalue="CMake Application.net" />
+      <item itemvalue="CMake Application.net_pch" />
+      <item itemvalue="CMake Application.propgrid" />
+      <item itemvalue="CMake Application.propgrid_pch" />
+      <item itemvalue="CMake Application.qa" />
+      <item itemvalue="CMake Application.qa_pch" />
+      <item itemvalue="CMake Application.ribbon" />
+      <item itemvalue="CMake Application.ribbon_pch" />
+      <item itemvalue="CMake Application.richtext" />
+      <item itemvalue="CMake Application.richtext_pch" />
+      <item itemvalue="CMake Application.stc" />
+      <item itemvalue="CMake Application.stc_pch" />
+      <item itemvalue="CMake Application.uninstall" />
+      <item itemvalue="CMake Application.webview" />
+      <item itemvalue="CMake Application.webview_pch" />
+      <item itemvalue="CMake Application.wxrc" />
+      <item itemvalue="CMake Application.wxregex" />
+      <item itemvalue="CMake Application.wxscintilla" />
+      <item itemvalue="CMake Application.wxscintilla_pch" />
+      <item itemvalue="CMake Application.xml" />
+      <item itemvalue="CMake Application.xml_pch" />
+      <item itemvalue="CMake Application.xrc" />
+      <item itemvalue="CMake Application.xrc_pch" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -106,7 +385,15 @@
       <workItem from="1582707820222" duration="224000" />
       <workItem from="1582708509617" duration="6442000" />
       <workItem from="1582719604520" duration="1006000" />
-      <workItem from="1582721644689" duration="2367000" />
+      <workItem from="1582721644689" duration="3924000" />
+      <workItem from="1583226667346" duration="1345000" />
+      <workItem from="1583840657723" duration="2475000" />
+      <workItem from="1583918613917" duration="826000" />
+      <workItem from="1583932062773" duration="125000" />
+      <workItem from="1583932376397" duration="103000" />
+      <workItem from="1583932768512" duration="5891000" />
+      <workItem from="1584404273692" duration="38000" />
+      <workItem from="1584532757975" duration="1728000" />
     </task>
     <task id="LOCAL-00001" summary="Major project restructuring after unficable bug.">
       <created>1582714430973</created>
@@ -127,66 +414,70 @@
     <option name="LAST_COMMIT_MESSAGE" value="Major project restructuring after unficable bug." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="555" y="219" key="#Images" timestamp="1583227330182">
+      <screen x="0" y="36" width="1920" height="1044" />
+    </state>
+    <state x="555" y="219" key="#Images/0.36.1920.1044@0.36.1920.1044" timestamp="1583227330182" />
     <state x="555" y="219" key="#Inspections" timestamp="1582721687174">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
     <state x="555" y="219" key="#Inspections/0.36.1920.1044@0.36.1920.1044" timestamp="1582721687174" />
-    <state x="418" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582717151360">
+    <state x="418" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583932399456">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state x="418" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.36.1920.1044@0.36.1920.1044" timestamp="1582717151360" />
+    <state x="418" y="216" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.36.1920.1044@0.36.1920.1044" timestamp="1583932399456" />
     <state x="557" y="143" key="CommitChangelistDialog2" timestamp="1582714430859">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
     <state x="557" y="143" key="CommitChangelistDialog2/0.36.1920.1044@0.36.1920.1044" timestamp="1582714430859" />
-    <state x="742" y="316" key="FileChooserDialogImpl" timestamp="1582719855985">
+    <state x="742" y="316" key="FileChooserDialogImpl" timestamp="1584533339759">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state x="742" y="316" key="FileChooserDialogImpl/0.36.1920.1044@0.36.1920.1044" timestamp="1582719855985" />
-    <state width="1874" height="339" key="GridCell.Tab.0.bottom" timestamp="1582727220448">
+    <state x="742" y="316" key="FileChooserDialogImpl/0.36.1920.1044@0.36.1920.1044" timestamp="1584533339759" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1584536526263">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.0.bottom/0.36.1920.1044@0.36.1920.1044" timestamp="1582727220448" />
-    <state width="1874" height="339" key="GridCell.Tab.0.center" timestamp="1582727220447">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.36.1920.1044@0.36.1920.1044" timestamp="1584536526263" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1584536526262">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.0.center/0.36.1920.1044@0.36.1920.1044" timestamp="1582727220447" />
-    <state width="1874" height="339" key="GridCell.Tab.0.left" timestamp="1582727220446">
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.36.1920.1044@0.36.1920.1044" timestamp="1584536526262" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1584536526262">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.0.left/0.36.1920.1044@0.36.1920.1044" timestamp="1582727220446" />
-    <state width="1874" height="339" key="GridCell.Tab.0.right" timestamp="1582727220448">
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.36.1920.1044@0.36.1920.1044" timestamp="1584536526262" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1584536526263">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.0.right/0.36.1920.1044@0.36.1920.1044" timestamp="1582727220448" />
-    <state width="1874" height="339" key="GridCell.Tab.1.bottom" timestamp="1582727220450">
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.36.1920.1044@0.36.1920.1044" timestamp="1584536526263" />
+    <state width="1874" height="339" key="GridCell.Tab.1.bottom" timestamp="1582835638909">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.1.bottom/0.36.1920.1044@0.36.1920.1044" timestamp="1582727220450" />
-    <state width="1874" height="339" key="GridCell.Tab.1.center" timestamp="1582727220449">
+    <state width="1874" height="339" key="GridCell.Tab.1.bottom/0.36.1920.1044@0.36.1920.1044" timestamp="1582835638909" />
+    <state width="1874" height="339" key="GridCell.Tab.1.center" timestamp="1582835638909">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.1.center/0.36.1920.1044@0.36.1920.1044" timestamp="1582727220449" />
-    <state width="1874" height="339" key="GridCell.Tab.1.left" timestamp="1582727220449">
+    <state width="1874" height="339" key="GridCell.Tab.1.center/0.36.1920.1044@0.36.1920.1044" timestamp="1582835638909" />
+    <state width="1874" height="339" key="GridCell.Tab.1.left" timestamp="1582835638909">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.1.left/0.36.1920.1044@0.36.1920.1044" timestamp="1582727220449" />
-    <state width="1874" height="339" key="GridCell.Tab.1.right" timestamp="1582727220450">
+    <state width="1874" height="339" key="GridCell.Tab.1.left/0.36.1920.1044@0.36.1920.1044" timestamp="1582835638909" />
+    <state width="1874" height="339" key="GridCell.Tab.1.right" timestamp="1582835638909">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state width="1874" height="339" key="GridCell.Tab.1.right/0.36.1920.1044@0.36.1920.1044" timestamp="1582727220450" />
-    <state x="456" y="193" key="SettingsEditor" timestamp="1582723344962">
+    <state width="1874" height="339" key="GridCell.Tab.1.right/0.36.1920.1044@0.36.1920.1044" timestamp="1582835638909" />
+    <state x="456" y="193" width="1236" height="735" key="SettingsEditor" timestamp="1584536254035">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state x="456" y="193" key="SettingsEditor/0.36.1920.1044@0.36.1920.1044" timestamp="1582723344962" />
+    <state x="456" y="193" width="1236" height="735" key="SettingsEditor/0.36.1920.1044@0.36.1920.1044" timestamp="1584536254035" />
     <state x="555" y="294" key="Vcs.Push.Dialog.v2" timestamp="1582716558859">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
     <state x="555" y="294" key="Vcs.Push.Dialog.v2/0.36.1920.1044@0.36.1920.1044" timestamp="1582716558859" />
-    <state x="612" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1582721644230">
+    <state x="612" y="382" key="com.intellij.ide.util.TipDialog" timestamp="1584404277258">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
-    <state x="612" y="382" key="com.intellij.ide.util.TipDialog/0.36.1920.1044@0.36.1920.1044" timestamp="1582721644230" />
+    <state x="612" y="382" key="com.intellij.ide.util.TipDialog/0.36.1920.1044@0.36.1920.1044" timestamp="1584404277258" />
     <state x="752" y="478" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582715184233">
       <screen x="0" y="36" width="1920" height="1044" />
     </state>
@@ -195,11 +486,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/GraphPane.cpp</url>
-          <line>32</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/src/MainFrame.cpp</url>
           <option name="timeStamp" value="7" />
