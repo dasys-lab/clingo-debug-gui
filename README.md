@@ -14,11 +14,11 @@ Instructions to install these tools should be easy to find.
 ## Installing this software
 Clone the repository using ssh
 ```bash
-git clone --recurse-submodules git@github.com:dasys-lab/clingo-debug-gui.git
+git clone --recurse-submodules --shallow-submodules --depth 1 git@github.com:dasys-lab/clingo-debug-gui.git
 ```
 or https
 ```bash
-git clone --recurse-submodules https://github.com/dasys-lab/clingo-debug-gui.git
+git clone --recurse-submodules --shallow-submodules --depth 1 https://github.com/dasys-lab/clingo-debug-gui.git
 ```
 ### Building:
 If you use jetbrains Clion you can open the project and everything should simply work.  
